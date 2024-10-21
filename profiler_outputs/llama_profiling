@@ -1,0 +1,32 @@
+CPU
+llama_perf_context_print:       total time =    4841.67 ms /    40 tokens
+llama_perf_context_print:       total time =    4864.16 ms /    40 tokens
+llama_perf_context_print:       total time =    4044.79 ms /    35 tokens
+llama_perf_context_print:       total time =     909.23 ms /    14 tokens
+llama_perf_context_print:       total time =    2984.17 ms /    28 tokens
+llama_perf_context_print:       total time =     609.10 ms /    12 tokens
+llama_perf_context_print:       total time =   19149.18 ms /   136 tokens
+llama_perf_context_print:       total time =     611.71 ms /    12 tokens
+llama_perf_context_print:       total time =   14993.28 ms /   108 tokens
+llama_perf_context_print:       total time =    1793.37 ms /    20 tokens
+llama_perf_context_print:       total time =   23539.98 ms /   164 tokens
+llama_perf_context_print:       total time =    1826.72 ms /    20 tokens
+llama_perf_context_print:       total time =    4734.22 ms /    39 tokens
+llama_perf_context_print:       total time =    1985.27 ms /    21 tokens
+llama_perf_context_print:       total time =     625.67 ms /    12 tokens
+GPU
+llama_perf_context_print:       total time =     360.73 ms /    40 tokens
+llama_perf_context_print:       total time =     366.04 ms /    40 tokens
+llama_perf_context_print:       total time =     363.75 ms /    40 tokens
+llama_perf_context_print:       total time =     149.77 ms /    20 tokens
+llama_perf_context_print:       total time =      85.42 ms /    14 tokens
+llama_perf_context_print:       total time =     150.68 ms /    20 tokens
+llama_perf_context_print:       total time =    1412.05 ms /   135 tokens
+llama_perf_context_print:       total time =     149.93 ms /    20 tokens
+llama_perf_context_print:       total time =      84.37 ms /    14 tokens
+llama_perf_context_print:       total time =      65.65 ms /    12 tokens
+llama_perf_context_print:       total time =     717.63 ms /    73 tokens
+llama_perf_context_print:       total time =     265.77 ms /    31 tokens
+llama_perf_context_print:       total time =     663.65 ms /    68 tokens
+llama_perf_context_print:       total time =     171.42 ms /    22 tokens
+llama_perf_context_print:       total time =     505.91 ms /    53 tokens
