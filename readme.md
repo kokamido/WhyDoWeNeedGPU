@@ -3,7 +3,7 @@
 Чтобы сделать те измерения, на которые были ссылки в докладе, нужно:
 
 1. Склонировать репозиторий
-2. Собрать образ из докерфайла, позвав в корне репозитория `docker build -t my_bench_image:2`. Собранный образ есть [тут](https://disk.yandex.ru/d/E1g8SnX0_syQ4A) и его можно подгрузить через `docker image load`, но возможны нюансы: один из шагов сборки - это билд [llama.cpp](https://github.com/ggerganov/llama.cpp) из сырцов, а там повсюду `-march=native`, т.е. переносимость под вопросом
+2. Собрать образ из докерфайла, позвав в корне репозитория `docker build . -t my_bench_image:2`. Собранный образ есть [тут](https://disk.yandex.ru/d/E1g8SnX0_syQ4A) и его можно подгрузить через `docker image load`, но возможны нюансы: один из шагов сборки - это билд [llama.cpp](https://github.com/ggerganov/llama.cpp) из сырцов, а там повсюду `-march=native`, т.е. переносимость под вопросом
 3. Скачать модель, которую будем запускать с помощью llama.cpp, положить её в директорию `etc` в корне репозитория: `wget https://huggingface.co/microsoft/Phi-3-mini-4k-instruct-gguf/resolve/main/Phi-3-mini-4k-instruct-fp16.gguf?download=true -O etc/Phi-3-mini-4k-instruct-fp16.gguf`
 4. Запустить как
 `docker run -i -v ./audios:/my_bench/audios -v ./scripts:/my_bench/scripts -v ./etc:/my_bench/etc -v ./profiler_outputs:/my_bench/profiler_outputs --gpus all my_bench_image:2`
@@ -29,5 +29,5 @@ GPU models and configuration: GPU 0: NVIDIA GeForce RTX 3090 Ti
 Nvidia driver version: 535.183.01
 Is XNNPACK available: True
 CPU:
-    Model name:                           AMD Ryzen 9 5950X 16-Core Processor
+    Model name:  AMD Ryzen 9 5950X 16-Core Processor
 ```
